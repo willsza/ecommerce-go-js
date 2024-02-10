@@ -1,4 +1,4 @@
-module github.com/willsza/ecommerce-go-js
+module github.com/willsza/ecommerce-go-js/api
 
 go 1.18
 

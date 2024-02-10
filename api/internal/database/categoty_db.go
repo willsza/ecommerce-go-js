@@ -3,7 +3,7 @@ package database
 import (
 	"database/sql"
 
-	"github.com/willsza/ecommerce-go-js/internal/entity"
+	"github.com/willsza/ecommerce-go-js/api/internal/entity"
 )
 
 type CategoryDB struct {
