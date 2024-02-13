@@ -14,6 +14,10 @@ GET http://localhost:3000/orders
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoiam9obkBhcHAuY29tIiwiaWF0IjoxNzA3Nzg5OTE4LCJleHAiOjE3MDc4NzYzMTh9.EyHV7F9kMhJjnI4lN77GEfg4RHe9hqvL8PWdFGa7JWg
 
 ###
+GET http://localhost:3000/orders/4a5e79c4-bf37-45e9-8ba5-b0db614d8558
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoiam9obkBhcHAuY29tIiwiaWF0IjoxNzA3Nzg5OTE4LCJleHAiOjE3MDc4NzYzMTh9.EyHV7F9kMhJjnI4lN77GEfg4RHe9hqvL8PWdFGa7JWg
+
+###
 POST http://localhost:3000/orders
 Content-Type: application/json
 
