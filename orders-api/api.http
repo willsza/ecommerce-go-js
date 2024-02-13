@@ -19,17 +19,18 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsI
 
 ###
 POST http://localhost:3000/orders
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoiam9obkBhcHAuY29tIiwiaWF0IjoxNzA3Nzg5OTE4LCJleHAiOjE3MDc4NzYzMTh9.EyHV7F9kMhJjnI4lN77GEfg4RHe9hqvL8PWdFGa7JWg
 Content-Type: application/json
 
 {
   "items": [
     {
       "product_id": "04c4353a-3f6d-4272-a8f2-44b82c05ecc0",
-      "quantity": ""
+      "quantity": 3
     },
     {
-      "product_id": "0afa7630-4fc1-4d69-beed-4f8f15becadc",
-      "quantity": ""
+      "product_id": "2261af8a-e453-42e2-b2b0-ea268bb11a41",
+      "quantity": 5
     }
   ],
   "card_hash": "123"
