@@ -1,13 +1,22 @@
 GET http://localhost:3000/products
 
 ###
+GET http://localhost:3000/orders
 
-POST http://localhost:3000/products
+###
+POST http://localhost:3000/orders
 Content-Type: application/json
 
 {
-  "name": "Product 1",
-  "price": 100,
-  "description": "Product 1 description",
-  "image_url": "http://google.com"
+  "items": [
+    {
+      "product_id": "04c4353a-3f6d-4272-a8f2-44b82c05ecc0",
+      "quantity": 2
+    },
+    {
+      "product_id": "0afa7630-4fc1-4d69-beed-4f8f15becadc",
+      "quantity": 1
+    }
+  ],
+  "card_hash": "123"
 }
