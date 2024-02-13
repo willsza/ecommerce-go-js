@@ -11,11 +11,11 @@ Content-Type: application/json
   "items": [
     {
       "product_id": "04c4353a-3f6d-4272-a8f2-44b82c05ecc0",
-      "quantity": 2
+      "quantity": ""
     },
     {
       "product_id": "0afa7630-4fc1-4d69-beed-4f8f15becadc",
-      "quantity": 1
+      "quantity": ""
     }
   ],
   "card_hash": "123"
